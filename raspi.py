@@ -10,7 +10,7 @@ tus = "off" #ultimo stato
 #def usr: 111111111
 def act(pin):
         GPIO.output(pin,GPIO.HIGH)
-        time.sleep(1)
+        time.sleep(1) #timer per simulare la pressione del pulsante
         GPIO.output(pin,GPIO.LOW)
         return
 
